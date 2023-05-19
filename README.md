@@ -1,6 +1,11 @@
 # datascience-101
 Unstructured testing of ideas within Data Science 
 
+## A list of random names, heights, and ages 
+
+https://github.com/skirtapaieo/datascience-101/blob/main/a-list-of-random-name.ipynb
+
+
 ## Python data processing  
 
 An ex-colleague decided to test a few Python data processing libraries, with a variation of data size to figure out when to use what. 

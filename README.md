@@ -8,43 +8,39 @@ He evaluated Pandas, Apache Spark and Polars https://betterprogramming.pub/panda
 
 ### Pythin libraries in a broader perspective 
 
-```mathematica
-| Library/Package      | Tool Type           | Small Data Sets    | Medium Data Sets   | Large Data Sets    |
-|----------------------|---------------------|--------------------|--------------------|--------------------|
-| pandas               | Data Manipulation   | ✔️                 | ✔️                 |                    |
-| polars               | Data Manipulation   | ✔️                 | ✔️                 |                    |
-| NumPy                | Scientific Computing| ✔️                 | ✔️                 | ✔️                 |
-| Dask                 | Distributed Computing|                    | ✔️                 | ✔️                 |
-| Spark (PySpark)      | Distributed Computing|                    |                    | ✔️                 |
-| scikit-learn         | Machine Learning    | ✔️                 | ✔️                 | ✔️                 |
-| TensorFlow           | Machine Learning    | ✔️                 | ✔️                 | ✔️                 |
-| PyTorch              | Machine Learning    | ✔️                 | ✔️                 | ✔️                 |
-| Keras                | Machine Learning    | ✔️                 | ✔️                 | ✔️                 |
-| XGBoost              | Machine Learning    | ✔️                 | ✔️                 | ✔️                 |
-| LightGBM             | Machine Learning    | ✔️                 | ✔️                 | ✔️                 |
-| Matplotlib           | Data Visualization  | ✔️                 | ✔️                 |                    |
-| Seaborn              | Data Visualization  | ✔️                 | ✔️                 |                    |
-| Plotly               | Data Visualization  |                    | ✔️                 | ✔️                 |
-| Bokeh                | Data Visualization  |                    | ✔️                 |                    |
-| OpenCV               | Image/Video Processing| ✔️                 | ✔️                 |                    |
-| scikit-image         | Image/Video Processing| ✔️                 | ✔️                 |                    |
-| Pillow               | Image/Video Processing| ✔️                 | ✔️                 |                    |
-| NLTK                 | Natural Language Processing| ✔️           | ✔️                 |                    |
-| SpaCy                | Natural Language Processing| ✔️           | ✔️                 |                    |
-| Gensim               | Natural Language Processing| ✔️           | ✔️                 |                    |
-| Flask                | Web Development     | ✔️                 | ✔️                 | ✔️                 |
-| Django               | Web Development     | ✔️                 | ✔️                 | ✔️                 |
-| FastAPI              | Web Development     | ✔️                 | ✔️                 | ✔️                 |
-| Requests             | Web Development     | ✔️                 | ✔️                 | ✔️                 |
-| BeautifulSoup        | Data Scraping       | ✔️                 | ✔️                 |                    |
-| Scrapy               | Data Scraping       | ✔️                 | ✔️                 |                    |
-| Selenium             | Data Scraping       | ✔️                 | ✔️                 |                    |
-| GeoPandas            | Geospatial Analysis | ✔️                 | ✔️                 | ✔️                 |
-| Shapely              | Geospatial Analysis | ✔️                 | ✔️                 |                    |
-| Fiona                | Geospatial Analysis | ✔️                 | ✔️                 |                    |
-| statsmodels          | Time Series Analysis| ✔️                 | ✔️                 |                    |
-| Prophet              | Time Series Analysis| ✔️                 | ✔️                 |                    |
-| PyCaret              | Time Series Analysis| ✔️                 | ✔️                 |                    |
+```less
+| Library/Package      | Tool Type             | Small Data Sets    | Medium Data Sets   | Large Data Sets    |
+|----------------------|-----------------------|--------------------|--------------------|--------------------|
+| pandas               | Data Manipulation     | &#10004;           | &#10004;           |                    |
+| polars               | Data Manipulation     | &#10004;           | &#10004;           |                    |
+| NumPy                | Scientific Computing  | &#10004;           | &#10004;           | &#10004;           |
+| Dask                 | Distributed Computing |                    | &#10004;           | &#10004;           |
+| Spark (PySpark)      | Distributed Computing |                    |                    | &#10004;           |
+| scikit-learn         | Machine Learning      | &#10004;           | &#10004;           | &#10004;           |
+| TensorFlow           | Machine Learning      | &#10004;           | &#10004;           | &#10004;           |
+| PyTorch              | Machine Learning      | &#10004;           | &#10004;           | &#10004;           |
+| Keras                | Machine Learning      | &#10004;           | &#10004;           | &#10004;           |
+| XGBoost              | Machine Learning      | &#10004;           | &#10004;           | &#10004;           |
+| LightGBM             | Machine Learning      | &#10004;           | &#10004;           | &#10004;           |
+| Matplotlib           | Data Visualization    | &#10004;           | &#10004;           |                    |
+| Seaborn              | Data Visualization    | &#10004;           | &#10004;           |                    |
+| Plotly               | Data Visualization    |                    | &#10004;           | &#10004;           |
+| Bokeh                | Data Visualization    |                    | &#10004;           |                    |
+| OpenCV               | Image/Video Processing| &#10004;           | &#10004;           |                    |
+| scikit-image         | Image/Video Processing| &#10004;           | &#10004;           |                    |
+| Pillow               | Image/Video Processing| &#10004;           | &#10004;           |                    |
+| NLTK                 | Natural Language Processing| &#10004;     | &#10004;           |                    |
+| SpaCy                | Natural Language Processing| &#10004;     | &#10004;           |                    |
+| Gensim               | Natural Language Processing| &#10004;     | &#10004;           |                    |
+| Flask                | Web Development       | &#10004;           | &#10004;           | &#10004;           |
+| Django               | Web Development       | &#10004;           | &#10004;           | &#10004;           |
+| FastAPI              | Web Development       | &#10004;           | &#10004;           | &#10004;           |
+| Requests             | Web Development       | &#10004;           | &#10004;           | &#10004;           |
+| BeautifulSoup        | Data Scraping         | &#10004;           | &#10004;           |                    |
+| Scrapy               | Data Scraping         | &#10004;           | &#10004;           |                    |
+| Selenium             | Data Scraping         | &#10004;           | &#10004;           |                    |
+| GeoPandas            | Geospatial Analysis   | &#10004;           | &#10004;
+
 ```
 
 
